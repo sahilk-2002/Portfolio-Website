@@ -2,7 +2,7 @@
   --bg-primary: #0a0a0f;
   --bg-secondary: #13131a;
   --border-color: #1e1e2e;
-  --accent-primary: #00ff88;
+  --accent-primary: #ef4444;
   --accent-secondary: #0ea5e9;
   --text-primary: #e2e8f0;
   --text-muted: #64748b;
@@ -157,7 +157,7 @@ body {
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-.card:hover { border-color: var(--accent-primary); box-shadow: 0 0 12px rgba(0, 255, 136, 0.1); }
+.card:hover { border-color: var(--accent-primary); box-shadow: 0 0 12px rgba(239, 68, 68, 0.1); }
 
 .card-title { font-size: 1.2rem; font-weight: bold; margin-bottom: 0.75rem; }
 
@@ -170,9 +170,9 @@ body {
 .tag {
   display: inline-block;
   padding: 0.25rem 0.75rem;
-  background: rgba(0, 255, 136, 0.1);
+  background: rgba(239, 68, 68, 0.1);
   color: var(--accent-primary);
-  border: 1px solid rgba(0, 255, 136, 0.2);
+  border: 1px solid rgba(239, 68, 68, 0.2);
   border-radius: 4px;
   font-size: 0.8rem;
 }
