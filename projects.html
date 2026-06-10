@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Sahil Kulkarni</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-logo">sahil@portfolio:~$</div>
+    <button class="nav-toggle" id="navToggle">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="main">
+    <div class="container">
+      <div class="page-header">
+        <h1>~/$ <span>projects</span></h1>
+        <p>DevOps projects I've built</p>
+      </div>
+
+      <div class="card fade-in">
+        <h3 class="card-title">E-Commerce DevOps Implementation</h3>
+        <div class="card-meta">Tools: GitHub Actions, Argo CD, Terraform, EKS, VPC, Route 53, Docker, Kubernetes</div>
+        <div class="card-body">
+          <p>Designed and implemented end-to-end DevOps practices for a multi-microservice e-commerce application &mdash; analyzed the architecture independently, broke it into logical phases, and executed containerization, orchestration, IaC, and CI/CD in a structured sequence.</p>
+          <p style="margin-top: 0.75rem;">Built a fully automated CI/CD pipeline using GitHub Actions and Argo CD, achieving single-touch end-to-end deployment for a Java-based microservice. Provisioned an EKS cluster within a custom VPC using reusable Terraform modules. Configured AWS Route 53 DNS nameservers mapped to a custom domain, exposing the frontend securely to external users via Load Balancer.</p>
+        </div>
+        <div class="tags">
+          <span class="tag">GitHub Actions</span>
+          <span class="tag">Argo CD</span>
+          <span class="tag">Terraform</span>
+          <span class="tag">EKS</span>
+          <span class="tag">VPC</span>
+          <span class="tag">Route 53</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Kubernetes</span>
+        </div>
+      </div>
+
+      <div class="card fade-in">
+        <h3 class="card-title">Infrastructure Provisioning Using Terraform</h3>
+        <div class="card-meta">Tools: Terraform, AWS (VPC, EC2, IAM, S3), CloudFormation</div>
+        <div class="card-body">
+          <p>Developed reusable Terraform modules for VPC, EC2, IAM, and S3 &mdash; designed with a team-first mindset, ensuring modules were readable, well-commented, and easy for others to adopt without additional guidance.</p>
+          <p style="margin-top: 0.75rem;">Reduced environment setup time by 60% by replacing manual provisioning with fully version-controlled IaC workflows. Proactively explored Terraform best practices through documentation, community forums, and hands-on experimentation &mdash; applied learnings iteratively to improve module structure and state management.</p>
+        </div>
+        <div class="tags">
+          <span class="tag">Terraform</span>
+          <span class="tag">AWS</span>
+          <span class="tag">VPC</span>
+          <span class="tag">EC2</span>
+          <span class="tag">IAM</span>
+          <span class="tag">S3</span>
+          <span class="tag">CloudFormation</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Sahil Kulkarni | Built with &#9000;&#65039; and &#9749;</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
